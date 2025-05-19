@@ -23,7 +23,7 @@ export default defineConfig({
     template: "./src/index.html",
   },
   dev: {
-    hmr: false,
+    hmr: true,
     liveReload: false,
     writeToDisk: true,
     progressBar: false,
